@@ -1,0 +1,74 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.now{
+    height: 100vh;
+    width: 100%;
+    background-image: url(not/qqq.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+li {
+    float: left;
+    padding: 2%;
+}
+li a{
+    text-decoration: none;
+    color: #000;
+    display: block;
+    padding: 7px 4px;
+    
+}
+ul{
+    list-style-type: none;
+    overflow: auto;
+    font-family: 'Times New Roman', Times, serif;
+    
+
+}
+.vision{
+    padding-left: 5%;
+    padding-right: 70%;
+}
+.visions{
+    padding-left: 3%;
+    padding-right: 80%;
+}
+.mission{
+    padding-left: 5%;
+    padding-right: 70%;
+    text-align: justify;
+}
+.missions{
+    padding-left: 3%;
+    padding-right: 80%;
+    text-align: justify;
+    border: none;
+}
+.three{
+    align-items: center;
+    padding-top: -50%;
+    float: left;
+    padding-left: 20%;
+    padding-right: 40%;
+    text-decoration: none;
+}
+li a.new{
+    color: white;
+    background-color: green;
+
+}
+li a:hover:not(.new){
+    background-color: brown;
+    color: white;
+}
+.go{
+    display: block table-cell;
+    block-size: 2%;
+    background-color: coral;
+}
+.last{
+    vertical-align: top;
+}
